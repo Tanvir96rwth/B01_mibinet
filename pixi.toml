@@ -1,0 +1,18 @@
+[project]
+authors = ["Tanvir Hassan <tanvir.hassan@rwth-aachen.de>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "B01_IRON"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.13.5,<3.14"
+assimulo = ">=3.7.0,<4"
+jupyterlab = ">=4.4.5,<5"
+ipykernel = ">=6.29.5,<7"
+
+[pypi-dependencies]
+mxlpy = ">=0.23.0, <0.24"
